@@ -185,6 +185,7 @@ main {
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
+  font-family: "Zen Maru Gothic", sans-serif;
 }
 
 .hamburger-menu-wrap__inner__nav {
