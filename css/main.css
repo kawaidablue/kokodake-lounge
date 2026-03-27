@@ -1,0 +1,70 @@
+@charset "UTF-8";
+.__inner {
+  max-width: 1120px;
+  width: 95%;
+}
+.slidein {
+  opacity: 0;
+  transform: translateY(30px);
+  transition:
+    opacity 1.2s ease,
+    transform 1.2s ease;
+}
+
+.slidein.is-show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.ttlflex {
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  gap: 20px;
+  align-items: center;
+}
+.section__subttl {
+  font-size: 20px;
+  color: #fff;
+  background-color: #9b001e;
+  padding: 15px 5px;
+  border-radius: 27px;
+  width: 200px;
+  text-align: center;
+}
+.section__ttl {
+  font-size: 60px;
+  color: #9b001e;
+  letter-spacing: 0.1rem;
+}
+.header {
+  width: 100%;
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-style: normal;
+  letter-spacing: -0.05em;
+}
+
+.footer-wrap {
+  font-family: "Zen Maru Gothic", sans-serif;
+  margin: 0 auto;
+  padding: 40px 0;
+  text-align: center;
+  max-width: 800px;
+}
+.footer-wrap__banar {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-wrap__copy {
+  padding: 60px 0 0 0;
+  font-size: 14px;
+}
+@media screen and (max-width: 1080px) {
+  .section__ttl {
+    font-size: clamp(2.625rem, 0.75rem + 3.75vw, 3.75rem);
+  }
+  .section__subttl {
+    font-size: 16px;
+    padding: 15px 5px;
+    width: 165px;
+  }
+}

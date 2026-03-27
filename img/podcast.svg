@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99.504" height="111.166" viewBox="0 0 99.504 111.166">
+  <defs>
+    <filter id="podcast" x="0" y="0" width="99.504" height="111.166" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#podcast)">
+    <path id="podcast-2" data-name="podcast" d="M61.128,65.458a32.02,32.02,0,1,0-40.752,0A97.643,97.643,0,0,0,21.54,76.7a40.761,40.761,0,1,1,38.405,0A93.753,93.753,0,0,0,61.11,65.458Zm-2.547-9.715a15.61,15.61,0,0,0-5.531-5.058c-.382-.2-.764-.4-1.146-.582a14.554,14.554,0,1,0-22.268,0c-.382.182-.764.364-1.146.582a15.61,15.61,0,0,0-5.531,5.058,23.287,23.287,0,1,1,35.622,0ZM40.752,56.762c5.985,0,11.643,1.565,11.643,7.969,0,6-2.347,18.939-3.748,24.178-.928,3.457-4.457,4.257-7.9,4.257s-6.95-.8-7.9-4.257c-1.419-5.185-3.748-18.138-3.748-24.16,0-6.386,5.658-7.968,11.643-7.968Zm0-23.287a7.277,7.277,0,1,1-7.277,7.277A7.277,7.277,0,0,1,40.752,33.475Z" transform="translate(9 6)" fill="#fff"/>
+  </g>
+</svg>

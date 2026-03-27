@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="98.66" height="80.728" viewBox="0 0 98.66 80.728">
+  <defs>
+    <filter id="パス_1661" x="0" y="0" width="98.66" height="80.728" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#パス_1661)">
+    <path id="パス_1661-2" data-name="パス 1661" d="M91.66,12.966A8.992,8.992,0,0,0,82.694,4H10.966A8.992,8.992,0,0,0,2,12.966v53.8a8.992,8.992,0,0,0,8.966,8.966H82.694a8.992,8.992,0,0,0,8.966-8.966Zm-8.966,0L46.83,35.336,10.966,12.966Zm0,53.8H10.966V21.932L46.83,44.347,82.694,21.932Z" transform="translate(2.5 -1.5)" fill="#fff"/>
+  </g>
+</svg>
