@@ -6,6 +6,7 @@ a {
 }
 html {
   overflow-x: hidden;
+  font-family: "Kaisei Opti";
 }
 .hamburger {
   position: fixed;
@@ -117,7 +118,7 @@ html {
   line-height: 1.3;
   font-weight: 400;
   text-decoration: none;
-  font-family: "Zen Maru Gothic", sans-serif;
+  font-family: "Kaisei Opti";
 }
 .hamburger.active {
   background-color: unset;
@@ -265,7 +266,7 @@ html {
   margin-top: -20px;
 }
 .about__body {
-  font-family: "Zen Maru Gothic", sans-serif;
+  font-family: "Kaisei Opti";
   width: 70%;
   text-align: center;
   margin: 0 auto;
@@ -354,7 +355,7 @@ html {
   background-image: url(../img/on-air__back.svg);
   background-repeat: no-repeat;
   background-size: cover;
-  font-family: "Zen Maru Gothic", sans-serif;
+  font-family: "Kaisei Opti";
 }
 .on-air-wrap {
   padding: 60px 0;
@@ -442,7 +443,7 @@ html {
   justify-content: space-around;
   color: #fff;
   gap: 20px;
-  font-family: "Zen Maru Gothic", sans-serif;
+  font-family: "Kaisei Opti";
 }
 .con-wrap__mes {
   width: 42%;
@@ -498,7 +499,7 @@ html {
 .pro-wrap {
   padding: 60px 0;
   margin: 0 auto;
-  font-family: "Zen Maru Gothic", sans-serif;
+  font-family: "Kaisei Opti";
 }
 .pro-wrap__body {
   display: flex;
@@ -607,7 +608,7 @@ html {
   transition: opacity 0.3s ease;
   justify-content: space-between;
   font-size: 18px;
-  font-family: "Zen Maru Gothic", sans-serif;
+  font-family: "Kaisei Opti";
   font-weight: 400;
 }
 .archive__item__left {

@@ -38,13 +38,13 @@
 }
 .header {
   width: 100%;
-  font-family: "Zen Maru Gothic", sans-serif;
+  font-family: "Kaisei Opti";
   font-style: normal;
   letter-spacing: -0.05em;
 }
 
 .footer-wrap {
-  font-family: "Zen Maru Gothic", sans-serif;
+  font-family: "Kaisei Opti";
   margin: 0 auto;
   padding: 40px 0;
   text-align: center;
@@ -52,6 +52,7 @@
 }
 .footer-wrap__banar {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 .footer-wrap__copy {
